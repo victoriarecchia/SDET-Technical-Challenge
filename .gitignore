@@ -1,0 +1,32 @@
+# -------------------
+# Node / Playwright
+# -------------------
+node_modules/
+*.log
+.env
+.env.*          # archivos de entorno
+.nyc_output/
+coverage/
+.cache/
+dist/
+
+# -------------------
+# Karate / Maven / Java
+# -------------------
+target/
+*.class
+*.jar
+*.log
+
+# -------------------
+# IDE / Editor
+# -------------------
+.vscode/
+.idea/
+*.iml
+
+# -------------------
+# Sistema operativo
+# -------------------
+.DS_Store
+Thumbs.db
