@@ -11,13 +11,12 @@ This repository contains the automated test suite for the **Shady Meadows B&B** 
 
 # API Tests (Karate)
 Navigate to the API directory and run the tests:
-  cd api-karate
+  cd karate-test
   mvn test
-Reports: After execution, open target/karate-reports/karate-summary.html in your browser.
 
 # UI Tests (Playwright)
 Navigate to the UI directory, install dependencies, and run:
-  cd ui-playwright
+  cd playwright-tests
   npm install
   npx playwright install
   npx playwright test
